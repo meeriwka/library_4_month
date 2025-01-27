@@ -1,0 +1,17 @@
+<ol>
+    {% for i in person %}
+
+    <li>
+        <p>{{ i.username }}<p>
+        <p>{{ i.experience }}<p>
+        <p>{{ i.phone_number }}<p>
+
+
+    </li>
+
+    {% endfor %}
+</ol>
+<form action="{% url 'users:login' %}" method="POST">
+    {% csrf_token %}
+    <button type="submit">Выйти из аккаунта</button>
+</form>

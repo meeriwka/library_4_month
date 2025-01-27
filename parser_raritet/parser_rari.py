@@ -25,16 +25,20 @@ def get_data(html):
         )
         return raritet_list
 
+
+
+
+
 def parsing():
     response = get_html(URL)
     if response.status_code == 200:
         raritet_list2 = []
         for page in range(1,2):
-            response = get_html("http://price.books.kg/welcome/index/2", params = {'page': page})
+            response = get_html("http://price.books.kg/welcome", params = {'page': page})
             raritet_list2.extend(get_data(response.text))
-            return raritet_list2
-        else:
-            raise Exception('error in parsing')
+        return raritet_list2
+    else:
+        raise Exception('error in parsing')
 
 
 # print(parsing())
