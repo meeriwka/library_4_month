@@ -10,11 +10,11 @@ class RegisterView(CreateView):
     success_url = reverse_lazy('users:login')
 
 class AuthLoginView(LoginView):
-    form_class = forms.AuthenticationForm
+    form_class = AuthenticationForm
     template_name = 'users/login.html'
 
     def get_success_url(self):
-        return reverse_lazy('users:user_list.html')
+        return reverse_lazy('users:user_list')
 
 class AuthLogoutView(LogoutView):
     next_page = reverse_lazy('users:login')
