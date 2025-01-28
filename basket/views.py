@@ -13,14 +13,14 @@ def create_basket_view(request):
 
 
 def basket_list_view(request):
-    if request.method == "POST":
+    if request.method == "GET":
         basket_list = models.Basket.objects.all().order_by('-id')
         context = {'basket_list': basket_list}
         return render(request, template_name='basket/basket_list.html', context=context)
 
 
 def basket_detail_view(request, id):
-    if request.method == "POST":
+    if request.method == "GET":
         basket_id = get_object_or_404(models.Basket, id=id)
         context = {'basket_id': basket_id}
         return render(request, template_name='basket/basket_detail.html', context=context)
