@@ -1,0 +1,15 @@
+{% load static %}
+{% include 'components/header.html' %}
+    <link rel="stylesheet" href="{% static 'css/book_detail.css' %}">
+    <link rel="stylesheet" href="{% static 'css/book.css' %}">
+
+<h1>Добавить ингредиент в рецепт "{{ recipe.title }}"</h1>
+<form method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Сохранить</button>
+</form>
+<a href="{% url 'recipe_detail' recipe.id %}">Назад</a>
+
+<!-- Футер -->
+{% include 'components/footer.html' %}

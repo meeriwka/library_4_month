@@ -5,22 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df5cb9af-7555-4757-9e31-027016262bcc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/basket/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basket/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hastags/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/hastags.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/basket/basket_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/basket/basket_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/basket/create_basket.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/hastags/all_products.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/hastags/drama.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/hastags/fairy_tales.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/hastags/fantasy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recipes/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recipes/url.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/recipes/add_ingredient.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/recipes/add_recipe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/recipes/recipe_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/recipes/recipe_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/components/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/components/header.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -133,7 +126,7 @@
       <workItem from="1737748255640" duration="5792000" />
       <workItem from="1737784795429" duration="565000" />
       <workItem from="1737967777881" duration="14419000" />
-      <workItem from="1738044563042" duration="20349000" />
+      <workItem from="1738044563042" duration="24229000" />
     </task>
     <servers />
   </component>
