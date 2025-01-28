@@ -1,0 +1,44 @@
+/* Стили для карточки */
+.card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 300px;
+  margin: 10px;
+}
+
+/* Стили для заголовка h1 */
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Стили для абзаца p */
+p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Стили для блока с кнопками */
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Стили для кнопок */
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Эффект при наведении на кнопку */
+button:hover {
+  background-color: #0056b3;
+}

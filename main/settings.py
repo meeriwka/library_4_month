@@ -32,6 +32,7 @@ INSTALLED_APPS = [
     'parser_raritet',
     'users',
     'hastags',
+    'basket',
 ]
 
 MIDDLEWARE = [
